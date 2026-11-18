@@ -6,7 +6,7 @@ pkgname=(
 )
 
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="JappeOS metapackages"
 arch=('any')
 url="https://github.com/JappeOS/$pkgbase"
@@ -50,6 +50,7 @@ package_jappeos_meta_base() {
         'intel-ucode'
         'iw'
         'jappeos_core'
+        'jappeos_notification_manager'
         'jfsutils'
         'kitty-terminfo'
         'ldns'
@@ -170,7 +171,7 @@ package_jappeos_meta_base_gui() {
 
     depends=(
         'jappeos_meta_base'
-        
+
         'accountsservice'
         'alsa-utils'
         'appsupport_launcher_windows'
