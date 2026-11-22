@@ -6,7 +6,7 @@ pkgname=(
 )
 
 pkgver=1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="JappeOS metapackages"
 arch=('any')
 url="https://github.com/JappeOS/$pkgbase"
@@ -51,6 +51,7 @@ package_jappeos_meta_base() {
         'iw'
         'jappeos_core'
         'jappeos_notification_manager'
+        'jappeos_system_notification_agent'
         'jfsutils'
         'kitty-terminfo'
         'ldns'
